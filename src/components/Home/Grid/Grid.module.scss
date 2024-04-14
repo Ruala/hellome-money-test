@@ -1,0 +1,24 @@
+.gridList {
+  @apply grid gap-y-24 pt-9 pb-[100px];
+}
+
+.box {
+  @apply flex gap-x-5 items-center justify-between;
+}
+
+.title {
+  @apply flex items-center gap-2 mb-2.5 text-[40px] font-bold text-logoText tracking-[0.04em];
+}
+
+.text {
+  @apply max-w-[538px] pl-6 text-xl tracking-[0.04em] text-justify;
+}
+
+.imageBox {
+  background: rgba(217, 217, 217, 0.1);
+  @apply p-3 rounded-2xl;
+}
+
+.image {
+  @apply rounded-lg;
+}

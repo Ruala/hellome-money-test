@@ -1,0 +1,28 @@
+.footer {
+  @apply pt-[67px] pb-[9px] bg-footerBg;
+}
+
+.content {
+  @apply flex justify-between;
+}
+
+
+.title {
+  @apply mb-6 text-2xl font-semibold;
+}
+
+.menu {
+  @apply grid gap-2;
+}
+
+.link {
+  @apply flex py-2 font-medium;
+
+  &:hover {
+    @apply underline;
+  }
+}
+
+.contacts {
+  @apply grid gap-3 mb-[74px];
+}

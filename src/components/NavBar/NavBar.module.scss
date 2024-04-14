@@ -1,0 +1,15 @@
+.menu {
+  @apply flex gap-[30px] ml-[76px];
+}
+
+.link {
+  @apply flex items-center justify-center px-2.5 font-medium leading-[38px] tracking-widest rounded-lg;
+
+  &:hover {
+    @apply bg-secondary;
+  }
+
+  &:global(.active) {
+    @apply font-semibold bg-secondary;
+  }
+}

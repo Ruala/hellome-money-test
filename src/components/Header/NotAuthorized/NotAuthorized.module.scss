@@ -1,0 +1,20 @@
+.root {
+  @apply flex items-center gap-4 ml-auto;
+}
+
+.logIn {
+  @apply h-10 px-[18px] text-sm font-medium -tracking-[.03em] border border-zinc-50 rounded-[40px];
+
+  &:hover {
+    @apply bg-white/25;
+  }
+}
+
+.signUp {
+  @apply h-10 px-[18px] text-sm font-medium -tracking-[.03em] bg-primary rounded-[40px];
+
+
+  &:hover {
+    @apply bg-blue-700;
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "helloMeMoney": "HelloMe Money",
+  "menu": [
+    {
+      "text": "Personal Account",
+      "href": "/personal"
+    },
+    {
+      "text": "Business Account",
+      "href": "/"
+    },
+    {
+      "text": "Company",
+      "href": "/company"
+    }
+  ],
+  "logIn": "Log in",
+  "signUp": "Sign Up",
+  "homeHeroText": "Explore the world of cryptocurrency with HelloMe \nMoney's crypto exchange. \nBuy, sell, and trade various cryptocurrencies securely, \nall within the {helloMeMoney} platform.",
+  "cryptoExchange": "Crypto Exchange",
+  "getStarted": "Get Started",
+  "homeGrid": [
+    {
+      "image": "/images/cardano-blockchain.jpg",
+      "title": "Secure Transactions:",
+      "subtext": "Explore the world of cryptocurrency with confidence on HelloMe Money's secure platform. Buy, sell, and trade various cryptocurrencies knowing that your transactions are protected by advanced security measures."
+    },
+    {
+      "image": "/images/view-hand-holding-bitcoin.jpg",
+      "title": "Convenient Trading:",
+      "subtext": "Trade cryptocurrencies seamlessly within the HelloMe Money platform. Our user-friendly interface and intuitive tools make buying, selling, and trading digital assets a hassle-free experience."
+    }
+  ],
+  "footerMenus": [
+    {
+    "title": "Who we are",
+    "list": [
+      {
+        "text": "About us",
+        "href": "#"
+      },
+      {
+        "text": "Code of Conduct",
+        "href": "#"
+      },
+      {
+        "text": "Partner with us",
+        "href": "#"
+      }
+    ]
+  },
+    {
+      "title": "Legal",
+      "list": [
+        {
+          "text": "Terms & Conditions",
+          "href": "#"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "#"
+        }
+      ]
+    }
+  ],
+  "contactUs": "Contact us",
+  "contacts": [
+    {
+      "office": "United Kingdom Office:",
+      "address": "2nd Floor, 30 Churchill Pl, London\nE14 5EU United Kingdom"
+    },
+    {
+      "office": "Canada Office:",
+      "address": "44322 YALE RD UNIT 3B #203\nCHILLIWACK, BC, CANADA V2R4H1"
+    }
+  ],
+  "copyright": "Copyright © 2024 HelloMe Money. All Rights Reserved."
+}

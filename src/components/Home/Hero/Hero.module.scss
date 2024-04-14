@@ -1,0 +1,77 @@
+
+.hero {
+  @apply relative pt-[10px] pb-[100px] text-center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(50% - 20px);
+    transform: translateX(-50%);
+    width: 284px;
+    height: 283px;
+    background: url("../../../icons/Cardano-Coin.png") no-repeat center;
+    background-size: contain;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -24px;
+    right: -44px;
+    width: 353px;
+    height: 353px;
+    background: url("../../../icons/Ethereum-Coin.png") no-repeat center;
+    background-size: contain;
+  }
+}
+
+.title {
+  @apply relative z-10 mb-[60px] text-[40px] font-medium tracking-[.04em] text-center leading-[56px] whitespace-break-spaces;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -76px;
+    z-index: -1;
+    width: 315px;
+    height: 340px;
+    background: url("../../../icons/Bitcoin.png") no-repeat center;
+    background-size: contain;
+  }
+}
+
+.text {
+  @apply relative text-[56px] font-semibold;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 491px;
+    height: 44px;
+    background: url("../../../icons/vector.svg") no-repeat center;
+    background-size: contain;
+  }
+}
+
+.exchange {
+  @apply h-9 px-4 mb-[60px] text-sm font-medium text-buttonColor -tracking-[.01em] bg-white rounded-2xl;
+
+
+  &:hover {
+    @apply bg-white/90;
+  }
+}
+
+.getStarted {
+  @apply inline-flex items-center gap-2 h-[73px] px-4 font-poppins text-xl font-medium text-buttonColor tracking-[.016em] bg-white rounded-3xl;
+
+
+  &:hover {
+    @apply bg-white/90;
+  }
+}
