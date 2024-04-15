@@ -45,7 +45,7 @@ const Footer = () => {
       <Container>
         <div className={styles.content}>
           {Menus}
-          <div>
+          <div className="basis-full sm:basis-auto">
             <h3 className={styles.title}>{contactUs}</h3>
             <ul className={styles.contacts}>{ContactsItems}</ul>
           </div>
