@@ -5,3 +5,7 @@
 .container {
   @apply flex items-center;
 }
+
+.burger {
+  @apply flex items-center justify-center w-8 h-8 ml-auto sm:ml-4;
+}

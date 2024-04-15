@@ -1,0 +1,15 @@
+.wrapper {
+  @apply fixed top-0 right-0 bottom-0 left-0 z-50 min-h-screen overflow-x-hidden overflow-y-auto bg-footerBg/50;
+}
+
+.panel {
+  @apply relative flex flex-col justify-between w-full max-w-64 min-h-full p-5 pt-20 ml-auto bg-black animate-slideLeft;
+}
+
+.close {
+  @apply absolute top-6 right-[15px] flex items-center justify-center w-8 h-8;
+}
+
+.nav {
+  @apply flex-col ml-0;
+}

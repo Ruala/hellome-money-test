@@ -16,6 +16,15 @@ module.exports = {
         buttonColor: "#121212",
         footerBg: "#292d32",
       },
+      keyframes: {
+        slideLeft: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
+      animation: {
+        slideLeft: "slideLeft 0.2s linear",
+      },
     },
   },
   plugins: [],
