@@ -1,6 +1,6 @@
 
 .hero {
-  @apply relative pt-[10px] pb-[100px] text-center;
+  @apply relative pt-[10px] pb-10 md:pb-[100px] text-center;
 
   &::before {
     content: "";
@@ -14,36 +14,40 @@
     background-size: contain;
   }
 
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: -24px;
-    right: -44px;
-    width: 353px;
-    height: 353px;
-    background: url("../../../icons/Ethereum-Coin.png") no-repeat center;
-    background-size: contain;
+  @media (min-width: 768px) {
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -24px;
+      right: -44px;
+      width: 353px;
+      height: 353px;
+      background: url("../../../icons/Ethereum-Coin.png") no-repeat center;
+      background-size: contain;
+    }
   }
 }
 
 .title {
-  @apply relative z-10 mb-[60px] text-[40px] font-medium tracking-[.04em] text-center leading-[56px] whitespace-break-spaces;
+  @apply relative z-10 mb-10 md:mb-[60px] text-xl sm:text-3xl md:text-[40px] font-medium tracking-[.04em] text-center leading-8 md:leading-[56px] whitespace-break-spaces;
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -76px;
-    z-index: -1;
-    width: 315px;
-    height: 340px;
-    background: url("../../../icons/Bitcoin.png") no-repeat center;
-    background-size: contain;
+  @media (min-width: 768px) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -76px;
+      z-index: -1;
+      width: 315px;
+      height: 340px;
+      background: url("../../../icons/Bitcoin.png") no-repeat center;
+      background-size: contain;
+    }
   }
 }
 
 .text {
-  @apply relative text-[56px] font-semibold;
+  @apply relative text-3xl sm:text-5xl md:text-[56px] font-semibold;
 
   &::after {
     content: "";
@@ -59,7 +63,7 @@
 }
 
 .exchange {
-  @apply h-9 px-4 mb-[60px] text-sm font-medium text-buttonColor -tracking-[.01em] bg-white rounded-2xl;
+  @apply h-9 px-4 mb-10 md:mb-[60px] text-sm font-medium text-buttonColor -tracking-[.01em] bg-white rounded-2xl;
 
 
   &:hover {
