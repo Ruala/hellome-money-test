@@ -1,11 +1,11 @@
 
 .hero {
-  @apply relative pt-[10px] pb-10 md:pb-[100px] text-center;
+  @apply relative pb-10 md:pb-[100px] text-center;
 
   &::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: -10px;
     left: calc(50% - 20px);
     transform: translateX(-50%);
     width: 284px;
@@ -67,5 +67,5 @@
 }
 
 .getStarted {
-  @apply inline-flex items-center gap-2 h-[73px];
+  @apply inline-flex items-center gap-2 h-[73px] px-4;
 }

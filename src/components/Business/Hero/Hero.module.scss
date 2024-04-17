@@ -1,0 +1,52 @@
+.hero {
+  @apply pt-[60px] pb-6 md:pb-[34px] text-center;
+}
+
+.gridBox {
+  @apply grid gap-y-[50px] gap-x-8 xl:gap-x-[50px] items-center text-left;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 460px 1fr;
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 700px 1fr;
+  }
+
+  @media (min-width: 1280px) {
+    grid-template-columns: 818px 1fr;
+  }
+}
+
+.title {
+  @apply mb-10 md:mb-[56px] text-xl sm:text-3xl lg:text-[32px] font-semibold tracking-[.04em] leading-tight;
+}
+
+.text {
+  @apply mb-10 md:mb-[64px] text-xl sm:text-3xl lg:text-[32px] tracking-[.04em] leading-tight;
+}
+
+.smallButton {
+  @apply mb-10 md:mb-[48px];
+}
+
+.gridButton {
+  @apply flex flex-wrap gap-4;
+}
+
+.getAccount {
+  @apply relative;
+}
+
+.star {
+  @apply absolute -top-[22px] -left-[20px];
+}
+
+.gridImageBox {
+  grid-template-columns: auto auto;
+  @apply relative -mr-[70px] grid gap-x-[20px] gap-y-[24px] items-stretch place-items-stretch text-left;
+}
+
+.image {
+  @apply object-cover object-center;
+}

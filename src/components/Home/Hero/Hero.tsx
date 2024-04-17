@@ -15,7 +15,7 @@ const Hero = () => {
   const { homeHeroText, helloMeMoney, cryptoExchange, getStarted } = intl;
 
   return (
-    <section className="pt-12">
+    <section className="pt-[60px]">
       <Container>
         <div className={styles.hero}>
           <SmallBtn className={styles.exchange}>{cryptoExchange}</SmallBtn>

@@ -41,6 +41,36 @@
       }
     }
   ],
+  "businessHeroTitle": "Tailored financial solutions for Small and Medium Enterprises (SMEs) with HelloMe Money",
+  "businessHeroText": "Access specialized accounts, tools, and services designed to meet the unique needs of your business.",
+  "sME": "SME (Small and Medium Enterprises)",
+  "getMulticurrencyAccount": "Get multicurrency account",
+  "businessHeroImages": [
+    {
+      "src": "/images/side-view-people-store.jpg",
+      "width": "319",
+      "height": "262",
+      "alt": "People store"
+    },
+    {
+      "src": "/images/side-view-smiley-business-owner.jpg",
+      "width": "170",
+      "height": "260",
+      "alt": "Business owner"
+    },
+    {
+      "src": "/images/personal-shopper-office-with-client.jpg",
+      "width": "323",
+      "height": "206",
+      "alt": "Personal office"
+    },
+    {
+      "src": "/images/cake-cafe-owners-with-open-sign.jpg",
+      "width": "171",
+      "height": "206",
+      "alt": "Cake cafe"
+    }
+  ],
   "businessGrid": [
     {
       "title": "Tailored Solutions",
