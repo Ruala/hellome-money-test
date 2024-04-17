@@ -20,7 +20,7 @@ const Burger = ({ onClose }: Props) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.panel}>
-        <button className={styles.close} onClick={onClose}>
+        <button type="button" className={styles.close} onClick={onClose}>
           <CloseIcon />
         </button>
         <NavBar className={styles.nav} />

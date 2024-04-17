@@ -63,19 +63,9 @@
 }
 
 .exchange {
-  @apply h-9 px-4 mb-10 md:mb-[60px] text-sm font-medium text-buttonColor -tracking-[.01em] bg-white rounded-2xl;
-
-
-  &:hover {
-    @apply bg-white/90;
-  }
+  @apply relative mb-10 md:mb-[60px];
 }
 
 .getStarted {
-  @apply inline-flex items-center gap-2 h-[73px] px-4 font-poppins text-xl font-medium text-buttonColor tracking-[.016em] bg-white rounded-3xl;
-
-
-  &:hover {
-    @apply bg-white/90;
-  }
+  @apply inline-flex items-center gap-2 h-[73px];
 }

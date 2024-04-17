@@ -9,8 +9,12 @@ const NotAuthorized = () => {
 
   return (
     <div className={styles.root}>
-      <button className={styles.logIn}>{logIn}</button>
-      <button className={styles.signUp}>{signUp}</button>
+      <button type="button" className={styles.logIn}>
+        {logIn}
+      </button>
+      <button type="button" className={styles.signUp}>
+        {signUp}
+      </button>
     </div>
   );
 };

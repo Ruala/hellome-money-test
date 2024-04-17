@@ -7,6 +7,7 @@ import cryptoExchangeIcon from "icons/cryptoExchange.png";
 import intl from "intl";
 
 import Container from "components/Container";
+import { SmallBtn, LargeBtn } from "components/Button";
 
 import styles from "./Hero.module.scss";
 
@@ -17,7 +18,7 @@ const Hero = () => {
     <section className="pt-12">
       <Container>
         <div className={styles.hero}>
-          <button className={styles.exchange}>{cryptoExchange}</button>
+          <SmallBtn className={styles.exchange}>{cryptoExchange}</SmallBtn>
           <h1 className={styles.title}>
             {formatMessageWithParams(homeHeroText, {
               helloMeMoney: (
@@ -27,7 +28,7 @@ const Hero = () => {
               ),
             })}
           </h1>
-          <button className={styles.getStarted}>
+          <LargeBtn className={styles.getStarted}>
             {getStarted}
             <img
               src={cryptoExchangeIcon}
@@ -35,7 +36,7 @@ const Hero = () => {
               height={58}
               alt="Crypto Exchange"
             />
-          </button>
+          </LargeBtn>
         </div>
       </Container>
     </section>

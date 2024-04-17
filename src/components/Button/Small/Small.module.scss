@@ -1,0 +1,8 @@
+.button {
+  @apply h-9 px-4 text-sm font-medium text-buttonColor -tracking-[.01em] bg-white rounded-2xl;
+
+
+  &:hover {
+    @apply bg-white/90;
+  }
+}
