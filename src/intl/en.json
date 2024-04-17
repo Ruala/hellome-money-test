@@ -3,11 +3,11 @@
   "menu": [
     {
       "text": "Personal Account",
-      "href": "/personal"
+      "href": "/"
     },
     {
       "text": "Business Account",
-      "href": "/"
+      "href": "/business"
     },
     {
       "text": "Company",
@@ -21,14 +21,44 @@
   "getStarted": "Get Started",
   "homeGrid": [
     {
-      "image": "/images/cardano-blockchain.jpg",
       "title": "Secure Transactions:",
-      "subtext": "Explore the world of cryptocurrency with confidence on HelloMe Money's secure platform. Buy, sell, and trade various cryptocurrencies knowing that your transactions are protected by advanced security measures."
+      "subtext": "Explore the world of cryptocurrency with confidence on HelloMe Money's secure platform. Buy, sell, and trade various cryptocurrencies knowing that your transactions are protected by advanced security measures.",
+      "image": {
+        "src": "/images/cardano-blockchain.jpg",
+        "width": "616",
+        "height": "337",
+        "alt": "Secure Transactions"
+      }
     },
     {
-      "image": "/images/view-hand-holding-bitcoin.jpg",
       "title": "Convenient Trading:",
-      "subtext": "Trade cryptocurrencies seamlessly within the HelloMe Money platform. Our user-friendly interface and intuitive tools make buying, selling, and trading digital assets a hassle-free experience."
+      "subtext": "Trade cryptocurrencies seamlessly within the HelloMe Money platform. Our user-friendly interface and intuitive tools make buying, selling, and trading digital assets a hassle-free experience.",
+      "image": {
+        "src": "/images/view-hand-holding-bitcoin.jpg",
+        "width": "616",
+        "height": "337",
+        "alt": "Convenient Trading"
+      }
+    }
+  ],
+  "businessGrid": [
+    {
+      "title": "Tailored Solutions",
+      "subtext": "Discover tailored financial solutions crafted specifically for Small and Medium Enterprises (SMEs). Our Business Account is designed to address the unique needs of your growing business, providing specialized accounts, tools, and services to streamline your financial operations"
+    },
+    {
+      "title": "Streamlined Banking",
+      "subtext": "Experience seamless banking with HelloMe Money's Business Account. From managing cash flow to making international payments, our platform offers intuitive tools and features to simplify your day-to-day banking tasks. Say goodbye to complexity and hello to effortless financial management.",
+      "image": {
+        "src": "/images/streamlined-banking.png",
+        "width": "354",
+        "height": "368",
+        "alt": "Convenient Trading"
+      }
+    },
+    {
+      "title": "Growth Opportunities",
+      "subtext": "Unlock growth opportunities for your business with HelloMe Money. Our Business Account empowers SMEs to plan for the future, offering resources and support to fuel expansion and success. Whether you're scaling up or venturing into new markets, HelloMe Money is here to help you thrive."
     }
   ],
   "footerMenus": [

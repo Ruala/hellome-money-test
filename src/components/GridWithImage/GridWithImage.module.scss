@@ -1,0 +1,24 @@
+.gridList {
+  @apply grid gap-y-10 sm:gap-y-[100px] pt-9 pb-[100px];
+}
+
+.box {
+  @apply sm:flex sm:gap-x-5 items-center justify-between;
+}
+
+.title {
+  @apply flex items-center gap-2 mb-2.5 text-xl md:text-2xl lg:text-[40px] font-bold text-logoText tracking-[0.04em];
+}
+
+.text {
+  @apply max-w-[538px] lg:pl-6 mb-4 sm:mb-0 md:text-lg lg:text-xl text-logoText tracking-[0.04em] text-justify;
+}
+
+.imageBox {
+  background: rgba(217, 217, 217, 0.1);
+  @apply flex items-center justify-center w-full max-w-[640px] min-h-0 p-3 rounded-2xl aspect-video;
+}
+
+.image {
+  @apply min-w-full object-contain object-center rounded-lg aspect-video;
+}

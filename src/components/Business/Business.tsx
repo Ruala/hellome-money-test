@@ -5,17 +5,14 @@ import { useGridItems } from "hooks";
 import Container from "components/Container";
 import GridWithImage from "components/GridWithImage";
 
-import Hero from "./Hero";
-
-const Home = () => {
-  const { homeGridList } = useGridItems();
+const Business = () => {
+  const { businessGridList } = useGridItems();
 
   return (
     <Container className="pt-12">
-      <Hero />
-      <GridWithImage list={homeGridList} />
+      <GridWithImage list={businessGridList} />
     </Container>
   );
 };
 
-export default Home;
+export default Business;
