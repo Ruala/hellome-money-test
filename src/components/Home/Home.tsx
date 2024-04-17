@@ -11,10 +11,14 @@ const Home = () => {
   const { homeGridList } = useGridItems();
 
   return (
-    <Container className="pt-12">
+    <>
       <Hero />
-      <GridWithImage list={homeGridList} />
-    </Container>
+      <section>
+        <Container>
+          <GridWithImage list={homeGridList} />
+        </Container>
+      </section>
+    </>
   );
 };
 
